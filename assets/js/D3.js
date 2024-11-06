@@ -154,7 +154,7 @@ console.log(eyeColor);
   Ogni personaggio dovrà finire nell'array corrispondente al suo colore degli occhi (al valore della sua proprietà "eye_color").
 */
 
-for (let i = 1; i < starWarsCharacters.length; i++) {
+/*for (let i = 1; i < starWarsCharacters.length; i++) {
 switch (true) {
     case blue:
     starWarsCharacters.eye_color === 'blue'
@@ -182,12 +182,11 @@ switch (true) {
 
 let crewMass = 0
 
-while (let i = 0; i < starWarsCharacters.length; i++) {
-  crewMass += starWarsCharacters[i].mass, i++;
-  whileloop++;
+for (let i = 0; i < starWarsCharacters.length; i++) {
+  crewMass += starWarsCharacters[i].mass;
 }
 
-
+console.log(crewMass)
 
 
 
