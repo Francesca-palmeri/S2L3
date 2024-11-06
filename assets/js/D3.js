@@ -183,7 +183,7 @@ switch (true) {
 let crewMass = 0
 
 while (let i = 0; i < starWarsCharacters.length; i++) {
-  crewMass = starWarsCharacters[i].mass, i++;
+  crewMass += starWarsCharacters[i].mass, i++;
   whileloop++;
 }
 
